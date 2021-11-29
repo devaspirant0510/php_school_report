@@ -1,4 +1,4 @@
-import {FC, ReactChild, ReactChildren} from "react";
+import { ReactChild, ReactChildren} from "react";
 import Header from "./Header"
 import Footer from "./Footer";
 import Banner from "../mainPage/Banner";
@@ -23,11 +23,11 @@ const AppLayout = ({children}: AuxProps) => {
                 <Col md={2} sm={2} xs={0}/>
             </Row>
             <Row>
-                <Col md={2} sm={2} xs={0}/>
+                <Col md={2} sm={2} xs={0} style={{backgroundColor:"#001529"}}/>
                 <Col md={20} sm={20} xs={24}>
                     <Navigation/>
                 </Col>
-                <Col md={2} sm={2} xs={0}/>
+                <Col md={2} sm={2} xs={0} style={{backgroundColor:"#001529"}}/>
             </Row>
             <Row>
                 <Col md={24} sm={24} xs={24}>

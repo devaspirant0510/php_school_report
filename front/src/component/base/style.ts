@@ -1,8 +1,9 @@
 import styled from "styled-components";
 import {Button} from "antd";
 
-export const HeaderTitle = styled.h1`
+export const HeaderTitle = styled.h2`
   font-weight: bold;
+  margin: 10px;
 `
 export const IconButton = styled.span`
   & div {
@@ -13,7 +14,8 @@ export const IconButton = styled.span`
   &span {
     font-weight: bold;
   }
-  margin: 8px;
+  margin:10px;
+  
 `
 export const FooterContainer = styled.div`
   background-color: #2A205E;

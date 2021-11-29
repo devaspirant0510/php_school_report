@@ -15,7 +15,7 @@ interface AuxProps {
 const DefaultLayout = ({children}: AuxProps) => {
     return (
         <>
-            <Row>
+            <Row style={{backgroundColor:"#f2f9f5"}}>
                 <Col md={2} sm={2} xs={0}/>
                 <Col md={20} sm={20} xs={24}>
                     <Header/>
@@ -23,11 +23,11 @@ const DefaultLayout = ({children}: AuxProps) => {
                 <Col md={2} sm={2} xs={0}/>
             </Row>
             <Row>
-                <Col md={2} sm={2} xs={0}/>
+                <Col md={2} sm={2} xs={0} style={{backgroundColor:"#001529"}}/>
                 <Col md={20} sm={20} xs={24}>
                     <Navigation/>
                 </Col>
-                <Col md={2} sm={2} xs={0}/>
+                <Col md={2} sm={2} xs={0} style={{backgroundColor:"#001529"}}/>
             </Row>
             <Row>
                 <Col md={2} sm={2} xs={0}/>
